@@ -1,0 +1,18 @@
+LITAHORSE & PONYLU — WEB ESTÁTICA DE CLASE
+
+Contenido:
+- index.html: página principal y navegación
+- quienes-somos.html: historia, identidad y ubicaciones
+- tienda.html: catálogo de muestra
+- contacto.html: formulario demostrativo
+- blog.html: consejos de costura
+- style.css: estilos responsive
+- imagenes/: imágenes aportadas y logo
+
+Para visualizar:
+1. Descomprime el archivo ZIP.
+2. Abre index.html en tu navegador.
+3. Mantén la carpeta imagenes junto a los archivos HTML.
+
+La tienda y el formulario son demostrativos. No realizan cobros ni envían mensajes reales.
+Para publicar en GitHub Pages, sube todos los archivos y carpetas al repositorio manteniendo esta estructura.
