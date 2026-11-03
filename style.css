@@ -14,3 +14,5 @@ main{max-width:1180px;margin:auto;padding:38px 5vw 70px}.eyebrow{font:11px Arial
 @media(max-width:760px){.catalog-zoom{flex-direction:column;align-items:flex-start;padding-left:5vw}.catalog-zoom img{width:90vw;max-width:90vw}.collage{grid-template-columns:1fr;grid-template-rows:none}.collage figure:first-child{grid-row:auto}.collage figure{height:260px}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important}}
 body{overflow-x:hidden}
+
+.hero{grid-template-columns:1fr}.hero-copy p{max-width:none}
