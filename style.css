@@ -16,3 +16,10 @@ main{max-width:1180px;margin:auto;padding:38px 5vw 70px}.eyebrow{font:11px Arial
 body{overflow-x:hidden}
 
 .hero{grid-template-columns:1fr}.hero-copy p{max-width:none}
+
+.hero{position:relative;display:flex;align-items:center;min-height:80vh;margin:-38px calc(50% - 50vw) 0;padding:0 8vw;overflow:hidden;color:#fff}
+.hero-bg{position:absolute;inset:0;background-size:cover;background-position:center;will-change:transform,opacity;z-index:0}
+.hero-bg::after{content:"";position:absolute;inset:0;background:rgba(0,0,0,.42)}
+.hero-copy{position:relative;z-index:1;max-width:640px}.hero h1,.hero .eyebrow,.hero-copy p{color:#fff}.hero .rule{border-color:#fff}
+.hero .btn{background:#fff;color:var(--brown);border-color:#fff}.hero .btn.light{background:transparent;color:#fff}
+@media(max-width:760px){.hero{margin-top:-25px;min-height:70vh}}
